@@ -1,0 +1,12 @@
+body {
+  background-color: crimson;
+}
+
+.posts {
+  background-color: chocolate;
+  width: 600px;
+  margin: 50px auto;
+}
+.posts p {
+  color: rgb(10, 7, 0);
+}
