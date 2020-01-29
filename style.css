@@ -1,12 +1,33 @@
+*{
+    margin: 0;
+}
 body {
-  background-color: crimson;
+  background-color: lightgray;
 }
-
-.posts {
-  background-color: chocolate;
-  width: 600px;
-  margin: 50px auto;
+.header {
+  background-color: lightsalmon;
+  width: 100%;
+  text-align: center;
 }
-.posts p {
-  color: rgb(10, 7, 0);
+.post-one {
+  background-color: lightyellow;
+  width: 500px;
+  height: 440px;
+  margin: auto;
+  margin-top: 30px;
+}
+.post-one p{
+    float: left;
+    padding: 10px;
+}
+.post-one span{
+    float: right;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+.post-one img {
+    width: 100%;
+}
+.post-one .caption {
+    padding: 15px;
 }
